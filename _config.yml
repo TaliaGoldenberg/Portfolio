@@ -24,8 +24,8 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 18bc9c #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
+  primary: a4d0de #80B3FF
+  primary-rgb: "164, 208, 222" #"128,179,255"
   secondary: 2c3e50 #FD6E8A
   secondary-dark: 233140 #A2122F
 
@@ -34,7 +34,7 @@ footer:
   copyright: Talia
   location: Location
   social: Around the Web
-  contact: Contact
+  credits: Credits
   
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -48,8 +48,9 @@ address:
   - line: Willamette University
   - line: 900 State St Salem, OR 97301
 
-# Contact
-contact: 'taliagoldenberg1@gmail.com'
+# Credits content
+credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+
 
 # Build settings
 markdown: kramdown
