@@ -34,7 +34,7 @@ footer:
   copyright: Talia
   location: Location
   social: Around the Web
-  email: Email
+  contact: Contact
   
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -48,8 +48,8 @@ address:
   - line: Willamette University
   - line: 900 State St Salem, OR 97301
 
-# email
-email: taliagoldenberg1@gmail.com
+# Contact
+contact: 'taliagoldenberg1@gmail.com'
 
 # Build settings
 markdown: kramdown
