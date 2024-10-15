@@ -2,9 +2,9 @@
 title: Talia
 email: taliagoldenberg1@gmail.com
 url: https://jeromelachaud.com/freelancer-theme
-description: "Woof"
-keywords: "Squeak, Oink, Neigh"
-skills: "Meow - Meow - Meow"
+description: "Description"
+keywords: "Keywords, Keywords, Keywords"
+skills: "Skills - Skills - Skills"
 meta_author: Goldenberg Talia
 
 # Google webmaster tools
@@ -35,8 +35,7 @@ footer:
   copyright: Talia
   location: Location
   social: Around the Web
-  credits: Credits
-
+  
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: linkedin
@@ -46,8 +45,8 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Willamette University
+  - line: 900 State St Salem, OR 97301
 
 # Build settings
 markdown: kramdown
