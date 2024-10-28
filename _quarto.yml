@@ -26,8 +26,6 @@ website:
     right:
       - icon: folder-symlink
         href: https://www.willamette.edu
-      - icon: twitter
-        href: https://twitter.com/
       - icon: linkedin
         href: https://www.linkedin.com/
       - icon: envelope

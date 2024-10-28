@@ -4,9 +4,6 @@ about:
   id: about-block
   image: "img/my_image.jpg"
   links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com/MarvinSchmittML
     - icon: github
       text: Github
       href: https://github.com/marvinschmitt
