@@ -4,7 +4,7 @@
     "href": "cv/index.html",
     "title": "Curriculum vitae",
     "section": "",
-    "text": "Download current CV\n  \n\n\n  \n\n\nView the tutorial for this template (+ download link)"
+    "text": "Download current CV"
   },
   {
     "objectID": "photography/index.html",
@@ -18,7 +18,7 @@
     "href": "projects/index.html",
     "title": "Projects",
     "section": "",
-    "text": "Over the centuries, I have devoted countless hours to deciphering and translating the ancient scripts and dialects of the various peoples of Middle-earth. My goal is to gain a deeper understanding of the cultures and histories of these peoples by studying their languages. Currently, I am working on a monograph that explores the linguistic roots of the Elvish languages. Through extensive research and analysis, I hope to shed light on the connections between the different dialects of Elvish and their origins. This project has been particularly challenging, as Elvish is a complex and nuanced language, but I am determined to see it through to completion."
+    "text": "Aggregated data by conducting a carefully designed experiment. Applied statistical functions in R to visualize findings"
   },
   {
     "objectID": "projects/index.html#the-languages-of-middle-earth",
@@ -40,5 +40,26 @@
     "title": "Welcome to my website!",
     "section": "",
     "text": "Github\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Email\n  \n\n\n\n\nWelcome to my website!\nI am Gandalf the White, a renowned wizard and scholar of Middle-earth. Over the centuries, I have dedicated my life to studying the history, languages, and cultures of the peoples of Middle-earth. On this website, I offer a glimpse into my vast body of knowledge, ongoing research, and publications.\nMy research interests span the entirety of Middle-earth, from the distant past to the present day. I am particularly passionate about the languages and mythologies of the Elves, Dwarves, and Men, and I have made significant contributions to the understanding of these subjects. My studies of the natural world have also been extensive, and I am an expert in the flora and fauna of Middle-earth. Additionally, I have been involved in many important historical events and offer valuable first-hand accounts and insights on the past.\nNot only am I a scholar, but I am also a mentor and teacher. Over the centuries, I have had the honor of working with many young wizards, passing on my knowledge and experience to the next generation. I have a particular interest in the education of hobbits, whom I see as having great potential despite their small size and simple lifestyle. My teaching style is engaging and accessible, and I encourage my students to think critically and creatively.\nOn this website, you will find a selection of my published works, including scholarly articles, monographs, and translations. You will also find news and updates on my current research projects, as well as information on upcoming events and conferences where I will be speaking. I invite you to explore my website and learn more about my life’s work as one of Middle-earth’s greatest scholars and thinkers. Please feel free to contact me if you have any questions or would like to discuss potential projects.\n\nView the tutorial for this template (+ download link)"
+  },
+  {
+    "objectID": "projects/index.html#how-does-minecraft-version-affect-success-rate",
+    "href": "projects/index.html#how-does-minecraft-version-affect-success-rate",
+    "title": "Projects",
+    "section": "",
+    "text": "Aggregated data by conducting a carefully designed experiment. Applied statistical functions in R to visualize findings"
+  },
+  {
+    "objectID": "projects/index.html#how-diverse-is-higher-education",
+    "href": "projects/index.html#how-diverse-is-higher-education",
+    "title": "Projects",
+    "section": "How Diverse is Higher Education",
+    "text": "How Diverse is Higher Education\nCleaned, merged, and analyzed datasets in R to answer questions about diversity in higher education"
+  },
+  {
+    "objectID": "projects/index.html#applied-statistical-functions-in-r-to-visualize-findings",
+    "href": "projects/index.html#applied-statistical-functions-in-r-to-visualize-findings",
+    "title": "Projects",
+    "section": "● Applied statistical functions in R to visualize findings",
+    "text": "● Applied statistical functions in R to visualize findings"
   }
 ]

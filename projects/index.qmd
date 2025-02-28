@@ -2,16 +2,13 @@
 title: Projects
 ---
 
-## The Languages of Middle-earth
+## How Does Minecraft Version Affect Success Rate
 
-Over the centuries, I have devoted countless hours to deciphering and translating the ancient scripts and dialects of the various peoples of Middle-earth. My goal is to gain a deeper understanding of the cultures and histories of these peoples by studying their languages. Currently, I am working on a monograph that explores the linguistic roots of the Elvish languages. Through extensive research and analysis, I hope to shed light on the connections between the different dialects of Elvish and their origins. This project has been particularly challenging, as Elvish is a complex and nuanced language, but I am determined to see it through to completion.
+Aggregated data by conducting a carefully designed experiment. Applied statistical functions in R to visualize findings
 
 ----
 
-## The History of the War of the Ring
+## How Diverse is Higher Education
 
-
-
-I am creating a comprehensive and detailed history of the conflict that goes beyond the surface-level events. By gathering information from a variety of sources, including my own memories, written accounts, and oral histories, I hope to shed new light on this important period in Middle-earth's history and provide valuable insights into the motivations and actions of the various players involved.
-
+Cleaned, merged, and analyzed datasets in R to answer questions about diversity in higher education
 
