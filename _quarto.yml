@@ -2,8 +2,8 @@
 
 # website settings
 website:
-  title: "Gandalf"                                # Your name
-  description: "Gandalf is a renowned wizard and scholar of Middle-earth"   # A brief slogan (optional)
+  title: "Talia Goldenberg"                                # Your name
+  description: "Data Science and Sociology Major"   # A brief slogan (optional)
   image: img/my_image.jpg
   
   favicon: img/favicon.png
@@ -17,7 +17,7 @@ website:
     left:
       - text: "Projects"
         href: projects/index.qmd
-      - text: "Photography"
+      - text: "Experience"
         href: photography/index.qmd
       - text: "CV"
         href: cv/index.qmd
@@ -30,7 +30,7 @@ website:
         href: https://www.linkedin.com/
       - icon: envelope
         aria-label: email
-        href: "mailto:email@willamette.edu"  
+        href: "trgoldenberg@willamette.edu"  
   
   
 
