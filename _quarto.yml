@@ -4,8 +4,6 @@
 website:
   title: "Talia Goldenberg"                                # Your name
   description: "Data Science and Sociology Major"   # A brief slogan (optional)
-  image: img/my_image.jpg
-  
   favicon: img/favicon.png
   
   # start of the navigation bar at the top of the website
