@@ -6,7 +6,7 @@ As a cat and scholar of Middle-earth, I have been studying the magic of the natu
 
 ::: {layout-ncol=2}
 
-![](gandalf_image_1.jpg)
+![](froggy.jpeg)
 
 ![](gandalf_image_2.jpg)
 

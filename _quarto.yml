@@ -4,7 +4,6 @@
 website:
   title: "Talia Goldenberg"                                # Your name
   description: "Data Science and Sociology Major"   # A brief slogan (optional)
-  favicon: img/favicon.png
   
   # start of the navigation bar at the top of the website
   navbar:
@@ -22,10 +21,8 @@ website:
     
     # your social media handles
     right:
-      - icon: folder-symlink
-        href: https://www.willamette.edu
       - icon: linkedin
-        href: https://www.linkedin.com/
+        href: https://www.linkedin.com/in/talia-goldenberg-a1237832a/
       - icon: envelope
         aria-label: email
         href: "trgoldenberg@willamette.edu"  
