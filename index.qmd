@@ -2,36 +2,27 @@
 about:
   template: jolla
   id: about-block
-  image: "img/my_image.jpg"
+  image: "img/headshot.jpg"
   links:
     - icon: github
       text: Github
-      href: https://github.com/marvinschmitt
+      href: https://github.com/TaliaGoldenberg
     - icon: linkedin
       text: LinkedIn
-      href: https://www.linkedin.com/in/marvin-schmitt-a85b321a2/
+      href: www.linkedin.com/in/talia-goldenberg-a1237832a
     - icon: envelope
       text: Email
-      href: "mailto:mail.marvinschmitt@gmail.com"  
+      href: "mailto:mail.trgoldenberg@willamette.edu"  
 ---
 
 ::: {#about-block}
 :::
 
-# Welcome to my website!
+# Welcome to my GitHub Portfolio!
 
-I am Kronk the White, a renowned wizard and scholar of Middle-earth. Over the centuries, I have dedicated my life to studying the history, languages, and cultures of the peoples of Middle-earth. On this website, I offer a glimpse into my vast body of knowledge, ongoing research, and publications.
+I am a Data Science and Sociology major at Willamette University. I'm passionate about taking the technical skills associated with Data Science and combining it with the collective action, advocacy, and community organizing skills gained through Sociology.
 
-My research interests span the entirety of Middle-earth, from the distant past to the present day. I am particularly passionate about the languages and mythologies of the Elves, Dwarves, and Men, and I have made significant contributions to the understanding of these subjects. My studies of the natural world have also been extensive, and I am an expert in the flora and fauna of Middle-earth. Additionally, I have been involved in many important historical events and offer valuable first-hand accounts and insights on the past.
+Outside of academics, I'm an Audio Visual Technician, Vice President of Willamette University’s Headband a cappella, Data Science Tutor, and Data Science Teaching Assistant.
 
-Not only am I a scholar, but I am also a mentor and teacher. Over the centuries, I have had the honor of working with many young wizards, passing on my knowledge and experience to the next generation. I have a particular interest in the education of hobbits, whom I see as having great potential despite their small size and simple lifestyle. My teaching style is engaging and accessible, and I encourage my students to think critically and creatively.
-
-On this website, you will find a selection of my published works, including scholarly articles, monographs, and translations. You will also find news and updates on my current research projects, as well as information on upcoming events and conferences where I will be speaking. I invite you to explore my website and learn more about my life's work as one of Middle-earth's greatest scholars and thinkers.
-Please feel free to [contact me](mailto:mail.marvinschmitt@gmail.com) if you have any questions or would like to discuss potential projects.
-
-```{=html}
-<div  style="margin: 30px; text-align: center;">
-<a class="btn btn-primary" href="https://www.marvinschmitt.com/blog/website-tutorial-quarto/" role="button" target="_blank" style="padding: 15px 30px;">View the tutorial for this template (+ download link)</a>
-</div>
-```
+Please feel free to [contact me](mailto:mail.trgoldenberg@willamette.edu) if you have any questions or would like to discuss potential projects.
 

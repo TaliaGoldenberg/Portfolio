@@ -10,5 +10,5 @@ Aggregated data by conducting a carefully designed experiment. Applied statistic
 
 ## How Diverse is Higher Education
 
-Cleaned, merged, and analyzed datasets in R to answer questions about diversity in higher education
+Cleaned, merged, and analyzed data sets in R to answer questions about diversity in higher education
 

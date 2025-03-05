@@ -8,26 +8,15 @@ website:
   # start of the navigation bar at the top of the website
   navbar:
     pinned: true
-    logo: /img/logo.png
     
     # your sub-pages
     left:
       - text: "Projects"
         href: projects/index.qmd
       - text: "Experience"
-        href: photography/index.qmd
+        href: experience/index.qmd
       - text: "CV"
         href: cv/index.qmd
-    
-    # your social media handles
-    right:
-      - icon: linkedin
-        href: https://www.linkedin.com/in/talia-goldenberg-a1237832a/
-      - icon: envelope
-        aria-label: email
-        href: "trgoldenberg@willamette.edu"  
-  
-  
 
 # Don't touch unless you know what you are doing :) ------------
   search: 
