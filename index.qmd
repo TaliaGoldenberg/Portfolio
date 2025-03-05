@@ -9,7 +9,7 @@ about:
       href: https://github.com/TaliaGoldenberg
     - icon: linkedin
       text: LinkedIn
-      href: www.linkedin.com/in/talia-goldenberg-a1237832a
+      href: www.linkedin.com/in/talia-goldenberg
     - icon: envelope
       text: Email
       href: "mailto:mail.trgoldenberg@willamette.edu"  

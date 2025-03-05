@@ -14,7 +14,7 @@ website:
       - text: "Projects"
         href: projects/index.qmd
       - text: "Experience"
-        href: experience/index.qmd
+        href: experience/index.html
       - text: "CV"
         href: cv/index.qmd
 
