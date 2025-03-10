@@ -9,7 +9,7 @@ about:
       href: https://github.com/TaliaGoldenberg
     - icon: linkedin
       text: LinkedIn
-      href: www.linkedin.com/in/talia-goldenberg
+      href: https://www.linkedin.com/in/talia-goldenberg
     - icon: envelope
       text: Email
       href: "mailto:taliagoldenberg1@gmail.com"  

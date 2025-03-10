@@ -6,6 +6,17 @@ title: Projects
 
 Aggregated data by conducting a carefully designed experiment. Applied statistical functions in R to visualize findings
 
+```r
+## CONFIDENCE INTERVAL
+## Z CI
+zCritVal<-qnorm(0.975)
+y_bar+c(-1,1)*zCritVal*standErr
+
+## NEW T CI
+tCritVal<-qt(0.975, df=n-1)
+y_bar+c(-1,1)*tCritVal*standErr
+```
+
 ----
 
 ## How Diverse is Higher Education

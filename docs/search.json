@@ -11,14 +11,14 @@
     "href": "projects/index.html",
     "title": "Projects",
     "section": "",
-    "text": "Aggregated data by conducting a carefully designed experiment. Applied statistical functions in R to visualize findings"
+    "text": "Aggregated data by conducting a carefully designed experiment. Applied statistical functions in R to visualize findings\n## CONFIDENCE INTERVAL\n## Z CI\nzCritVal&lt;-qnorm(0.975)\ny_bar+c(-1,1)*zCritVal*standErr\n\n## NEW T CI\ntCritVal&lt;-qt(0.975, df=n-1)\ny_bar+c(-1,1)*tCritVal*standErr"
   },
   {
     "objectID": "projects/index.html#how-does-minecraft-version-affect-success-rate",
     "href": "projects/index.html#how-does-minecraft-version-affect-success-rate",
     "title": "Projects",
     "section": "",
-    "text": "Aggregated data by conducting a carefully designed experiment. Applied statistical functions in R to visualize findings"
+    "text": "Aggregated data by conducting a carefully designed experiment. Applied statistical functions in R to visualize findings\n## CONFIDENCE INTERVAL\n## Z CI\nzCritVal&lt;-qnorm(0.975)\ny_bar+c(-1,1)*zCritVal*standErr\n\n## NEW T CI\ntCritVal&lt;-qt(0.975, df=n-1)\ny_bar+c(-1,1)*tCritVal*standErr"
   },
   {
     "objectID": "projects/index.html#how-diverse-is-higher-education",
