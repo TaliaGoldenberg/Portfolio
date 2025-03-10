@@ -22,7 +22,7 @@ about:
 
 I am a Data Science and Sociology major at Willamette University. I'm passionate about taking the technical skills associated with Data Science and combining it with the collective action, advocacy, and community organizing skills gained through Sociology.
 
-Outside of academics, I'm an Audio Visual Technician, Vice President of Willamette University’s Headband a cappella, Data Science Tutor, and Data Science Teaching Assistant.
+Outside of academics, I'm an Audio Visual Technician, Vice President of Willamette University’s Headband A Cappella, Data Science Tutor, and Data Science Teaching Assistant.
 
 Please feel free to [contact me](mailto:taliagoldenberg1@gmail.com) if you have any questions or would like to discuss potential projects.
 

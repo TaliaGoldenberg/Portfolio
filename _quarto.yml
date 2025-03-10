@@ -3,7 +3,6 @@
 # website settings
 website:
   title: "Talia Goldenberg"                                # Your name
-  description: "Data Science and Sociology Major"   # A brief slogan (optional)
   
   # start of the navigation bar at the top of the website
   navbar:
