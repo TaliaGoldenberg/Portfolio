@@ -2,24 +2,238 @@
 title: Projects
 ---
 
-## How Does Minecraft Version Affect Success Rate
+## How Diverse is Higher Education
 
-Aggregated data by conducting a carefully designed experiment. Applied statistical functions in R to visualize findings
+Overview: This project analyzed data about Bachelors, Masters, and Doctorate degrees. Specifically looking at number of degrees type of degrees by race & ethnicity and field of study. This project helped me grow skills such as cleaning, merging, and analyzing large data sets in R to answer questions about diversity in higher education. This project also grew my skills in dealing with data sets with many NA values, which can make data visualization and drawing sound conclusions about data more difficult. 
+
+Below you'll find code looking at linear regression for Bachelors, Masters, and Doctorate degrees.
 
 ```r
-## CONFIDENCE INTERVAL
-## Z CI
-zCritVal<-qnorm(0.975)
-y_bar+c(-1,1)*zCritVal*standErr
+#----Linear Regression-----
 
-## NEW T CI
-tCritVal<-qt(0.975, df=n-1)
-y_bar+c(-1,1)*tCritVal*standErr
+#BACHELOR'S DEGREES
+dsLR_BS=ds %>%
+  filter(degree=="Bachelor's") %>%
+  group_by(Year) %>%
+  summarise(totalstudents=sum(numberOfStudents))
+  
+dsLR_BS %>%
+  ggplot(aes(x=Year, y=totalstudents)) +
+  geom_point()+
+  geom_smooth(method = "lm")+
+  scale_x_continuous(breaks = 2011:2020)+
+  scale_y_continuous(labels=scales::comma_format())+
+  labs (title="Bachleor's Degrees Obtained Overtime", x="Year", y="Number of Degrees") +
+  theme_minimal ()
+
+lm(totalstudents~Year,data = dsLR_BS)
+#slope 19908 this is telling me that for every year over this time period, the number of people perusing this degree went up by roughly 20,000
+
+#MASTER'S DEGREES
+dsLR_M=ds %>%
+  filter(degree=="Master's") %>%
+  group_by(Year) %>%
+  summarise(totalstudents=sum(numberOfStudents))
+
+dsLR_M %>%
+  ggplot(aes(x=Year, y=totalstudents)) +
+  geom_point()+
+  geom_smooth(method = "lm")+
+  scale_x_continuous(breaks = 2011:2020)+
+  scale_y_continuous(labels=scales::comma_format())+
+  labs (title="Master's Degrees Obtained Overtime", x="Year", y="Number of Degrees") +
+  theme_minimal ()
+
+lm(totalstudents~Year,data = dsLR_M)
+
+
+#DOCTORATE DEGREES
+dsLR_D=ds %>%
+  filter(degree=="Doctorate") %>%
+  group_by(Year) %>%
+  summarise(totalstudents=sum(numberOfStudents))
+
+dsLR_D %>%
+  ggplot(aes(x=Year, y=totalstudents)) +
+  geom_point()+
+  geom_smooth(method = "lm")+
+  scale_x_continuous(breaks = 2011:2020)+
+  scale_y_continuous(labels=scales::comma_format())+
+  labs (title="Doctorate Degrees Obtained Overtime", x="Year", y="Number of Degrees") +
+  theme_minimal ()
+
+lm(totalstudents~Year,data = dsLR_D)
+```
+
+Next I made new data sets with the NA values removed to highlight the differences.  
+```r
+#-----How to visualize/understand NA data-----
+head(ds)
+
+dsNA=ds %>%
+  group_by(degree, `Broad field`, `Race and ethnicity`) %>%
+summarise(totalstudents=sum(numberOfStudents))
+
+dsNA=dsNA %>%
+  mutate(`Race and ethnicity`=ifelse(is.na(`Race and ethnicity`),"Unknown",`Race and ethnicity`))
+
+dsNA_B=ds %>%
+  filter(degree=="Bachelor's") %>%
+  group_by(`Broad field`) %>%
+  summarise(totalstudents=sum(numberOfStudents)) %>%
+  arrange(totalstudents) %>%
+  pull(`Broad field`)
+
+#BACHELOR'S DEGREES
+dsNA %>%
+  filter(degree=="Bachelor's") %>%
+  mutate(`Broad field`=factor(`Broad field`,levels=dsNA_B)) %>%
+  ggplot(aes(y=`Broad field`, x=totalstudents, fill=`Race and ethnicity`))+
+  geom_col()+
+  scale_x_continuous(labels=scales::comma_format())+
+labs (title="Degrees Awarded 2011-2020",subtitle = "Bachelor's", x="Number of Degrees", y="Broad Field of Study") +
+  theme_minimal ()
+
+dsNA_M=ds %>%
+  filter(degree=="Master's") %>%
+  group_by(`Broad field`) %>%
+  summarise(totalstudents=sum(numberOfStudents)) %>%
+  arrange(totalstudents) %>%
+  pull(`Broad field`)
+
+#MASTER'S DEGREES
+dsNA %>%
+  filter(degree=="Master's") %>%
+  mutate(`Broad field`=factor(`Broad field`,levels=dsNA_M)) %>%
+  ggplot(aes(y=`Broad field`, x=totalstudents, fill=`Race and ethnicity`))+
+  geom_col()+
+  scale_x_continuous(labels=scales::comma_format())+
+  labs (title="Degrees Awarded 2011-2020",subtitle = "Master's", x="Number of Degrees", y="Broad Field of Study") +
+  theme_minimal ()
+
+dsNA_D=ds %>%
+  filter(degree=="Doctorate") %>%
+  group_by(`Broad field`) %>%
+  summarise(totalstudents=sum(numberOfStudents)) %>%
+  arrange(totalstudents) %>%
+  pull(`Broad field`)
+
+#DOCTORATE DEGREES
+dsNA %>%
+  filter(degree=="Doctorate") %>%
+  mutate(`Broad field`=factor(`Broad field`,levels=dsNA_D)) %>%
+  ggplot(aes(y=`Broad field`, x=totalstudents, fill=`Race and ethnicity`))+
+  geom_col()+
+  scale_x_continuous(labels=scales::comma_format())+
+  labs (title="Degrees Awarded 2011-2020",subtitle = "Doctorate", x="Number of Degrees", y="Broad Field of Study") +
+  theme_minimal ()
+```
+
+These are graphs with the NA values included.
+```r
+#For legibility, facet it vertically instead of horizontally or pick a different visualization
+
+head(ds)
+
+dsCOL=ds %>%
+  group_by(degree, `Broad field`, `Race and ethnicity`, Year) %>%
+  summarise(totalstudents=sum(numberOfStudents))
+  
+#BACHELOR'S
+dsCOL %>%
+  filter(degree=="Bachelor's") %>%
+  ggplot(aes(x=Year, y=totalstudents, fill=`Race and ethnicity`)) +
+  geom_col() +
+  scale_x_continuous(breaks = 2011:2020)+
+  scale_y_continuous(labels=scales::comma_format())+
+  labs (title="Total Number of Degrees Awarded by Race and Ethnicity",subtitle = "Bachelor's", x="Year", y="Number of Degrees") +
+  theme_minimal ()
+
+#MASTER'S
+dsCOL %>%
+  filter(degree=="Master's") %>%
+  ggplot(aes(x=Year, y=totalstudents, fill=`Race and ethnicity`)) +
+  geom_col() +
+  scale_x_continuous(breaks = 2011:2020)+
+  scale_y_continuous(labels=scales::comma_format())+
+  labs (title="Total Number of Degrees Awarded by Race and Ethnicity",subtitle = "Master's", x="Year", y="Number of Degrees") +
+  theme_minimal ()
+
+#DOCTORATE
+dsCOL %>%
+  filter(degree=="Doctorate") %>%
+  ggplot(aes(x=Year, y=totalstudents, fill=`Race and ethnicity`)) +
+  geom_col() +
+  scale_x_continuous(breaks = 2011:2020)+
+  scale_y_continuous(labels=scales::comma_format())+
+  labs (title="Total Number of Degrees Awarded by Race and Ethnicity",subtitle = "Doctorate", x="Year", y="Number of Degrees") +
+  theme_minimal ()
+```
+
+Lastly, I made an overall data set with all degrees to make more graphs to help understand the data set.
+```r
+#-----OTHER---------
+dsOverall=ds %>%
+  group_by(degree, Year) %>%
+  summarise(totalstudents=sum(numberOfStudents)) %>%
+  mutate(degree=factor(degree, levels=c("Bachelor's","Master's","Doctorate")))
+
+levels(dsOverall$degree)
+
+
+dsOverall=dsCOL %>%
+  group_by(degree, Year) %>%
+  summarise(totalstudents=sum(totalstudents))
+
+dsOverall=dsOverall %>%
+  mutate(degree=factor(degree, levels="Bachelor's","Master's","Doctorate")) 
+
+
+dsOverall%>%
+  ggplot(aes(x=Year, y=totalstudents, color=degree)) +
+  geom_point()+
+  geom_smooth(method="lm")+
+  scale_x_continuous(breaks = 2011:2020)+
+  scale_y_continuous(labels=scales::comma_format())+
+  scale_color_discrete(name="Degree")+
+  labs (title="Total Number of Degrees Awarded Between 2011-2020", x="Year", y="Number of Degrees") +
+  theme_minimal ()
+
+unique(dsOverall$degree)
+
 ```
 
 ----
 
-## How Diverse is Higher Education
 
-Cleaned, merged, and analyzed data sets in R to answer questions about diversity in higher education
+## How Does Minecraft Version Affect Success Rate
 
+In this project I aggregated data by conducting a carefully designed experiment. I created two data sets, one with and one without, NA values. Later I applied statistical functions in R to visualize findings.
+
+```r
+ds_no_NA %>%
+ggplot(aes(x=`Time to First Diamond (min)`))+
+  geom_histogram(fill="forestgreen", color="black", binwidth = 1)+
+  labs (title="Number of Players by Time to First Diamond (min)", 
+        x="Time to First Diamond (min)",
+        y="Number of Players") +
+  scale_x_continuous(breaks = 8:30)+
+  theme_bw ()
+
+dsALL %>%
+  ggplot(aes(x=`Player Experience`))+
+  geom_bar(fill="forestgreen", color="black")+
+  labs (title="Player Self-Assessed Level", 
+        x="Player Experience",
+        y="Number of Players") +
+  theme_bw ()
+
+dsALL %>%
+  ggplot(aes(x=`Player Experience`, y=`Number of Deaths`))+
+  geom_boxplot(fill="forestgreen", color="black")+
+  facet_grid(.~`Player Experience`)+
+  labs (title="Player Experience by XP", 
+        x="XP",
+        y="Player Experience") +
+  theme_bw ()
+```
