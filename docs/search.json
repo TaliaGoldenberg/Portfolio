@@ -7,39 +7,11 @@
     "text": "Download current CV"
   },
   {
-    "objectID": "photography/index.html",
-    "href": "photography/index.html",
-    "title": "Photography",
-    "section": "",
-    "text": "As a wizard and scholar of Middle-earth, I have been studying the magic of the natural world for centuries. Through my self-portraits, I aim to capture the essence of my own being and reflect on my own journey through time. Each photograph is a reflection of my own experiences and emotions. Through my photography, I hope to offer a glimpse into my life as a scholar and adventurer, and inspire others to reflect on their own journeys through the world."
-  },
-  {
     "objectID": "projects/index.html",
     "href": "projects/index.html",
     "title": "Projects",
     "section": "",
     "text": "Aggregated data by conducting a carefully designed experiment. Applied statistical functions in R to visualize findings"
-  },
-  {
-    "objectID": "projects/index.html#the-languages-of-middle-earth",
-    "href": "projects/index.html#the-languages-of-middle-earth",
-    "title": "Projects",
-    "section": "",
-    "text": "Over the centuries, I have devoted countless hours to deciphering and translating the ancient scripts and dialects of the various peoples of Middle-earth. My goal is to gain a deeper understanding of the cultures and histories of these peoples by studying their languages. Currently, I am working on a monograph that explores the linguistic roots of the Elvish languages. Through extensive research and analysis, I hope to shed light on the connections between the different dialects of Elvish and their origins. This project has been particularly challenging, as Elvish is a complex and nuanced language, but I am determined to see it through to completion."
-  },
-  {
-    "objectID": "projects/index.html#the-history-of-the-war-of-the-ring",
-    "href": "projects/index.html#the-history-of-the-war-of-the-ring",
-    "title": "Projects",
-    "section": "The History of the War of the Ring",
-    "text": "The History of the War of the Ring\nI am creating a comprehensive and detailed history of the conflict that goes beyond the surface-level events. By gathering information from a variety of sources, including my own memories, written accounts, and oral histories, I hope to shed new light on this important period in Middle-earth’s history and provide valuable insights into the motivations and actions of the various players involved."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to my GitHub Portfolio!",
-    "section": "",
-    "text": "Github\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Email\n  \n\n\n\n\nWelcome to my GitHub Portfolio!\nI am a Data Science and Sociology major at Willamette University. I’m passionate about taking the technical skills associated with Data Science and combining it with the collective action, advocacy, and community organizing skills gained through Sociology.\nOutside of academics, I’m an Audio Visual Technician, Vice President of Willamette University’s Headband a cappella, Data Science Tutor, and Data Science Teaching Assistant.\nPlease feel free to contact me if you have any questions or would like to discuss potential projects."
   },
   {
     "objectID": "projects/index.html#how-does-minecraft-version-affect-success-rate",
@@ -53,14 +25,7 @@
     "href": "projects/index.html#how-diverse-is-higher-education",
     "title": "Projects",
     "section": "How Diverse is Higher Education",
-    "text": "How Diverse is Higher Education\nCleaned, merged, and analyzed datasets in R to answer questions about diversity in higher education"
-  },
-  {
-    "objectID": "projects/index.html#applied-statistical-functions-in-r-to-visualize-findings",
-    "href": "projects/index.html#applied-statistical-functions-in-r-to-visualize-findings",
-    "title": "Projects",
-    "section": "● Applied statistical functions in R to visualize findings",
-    "text": "● Applied statistical functions in R to visualize findings"
+    "text": "How Diverse is Higher Education\nCleaned, merged, and analyzed data sets in R to answer questions about diversity in higher education"
   },
   {
     "objectID": "experience/index.html",
@@ -82,5 +47,12 @@
     "title": "Experience",
     "section": "LGBTQ Center OC",
     "text": "LGBTQ Center OC\nMy work at the LGBTQ Center in Orange County CA involved analyzing survey statistics to measure program success, designing data-driven presentations, and researching policy topics related to mental health and advocacy."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to my GitHub Portfolio!",
+    "section": "",
+    "text": "Github\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Email\n  \n\n\n\n\nWelcome to my GitHub Portfolio!\nI am a Data Science and Sociology major at Willamette University. I’m passionate about taking the technical skills associated with Data Science and combining it with the collective action, advocacy, and community organizing skills gained through Sociology.\nOutside of academics, I’m an Audio Visual Technician, Vice President of Willamette University’s Headband a cappella, Data Science Tutor, and Data Science Teaching Assistant.\nPlease feel free to contact me if you have any questions or would like to discuss potential projects."
   }
 ]

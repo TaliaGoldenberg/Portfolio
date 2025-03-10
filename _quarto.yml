@@ -28,7 +28,7 @@ website:
     center: |
       <span class="faux-block"><a href="https://www.willamette.edu">Visit Willamette.edu!</a></span>
     right: |
-      <span class="faux-block"><a href="https://www.willamette.edu/">Visit My GitHub</a></span>
+      <span class="faux-block"><a href="https://github.com/TaliaGoldenberg">Visit My GitHub</a></span>
 
 project:
   type: website
