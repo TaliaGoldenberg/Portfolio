@@ -4,7 +4,7 @@ title: Projects
 
 ## How Diverse is Higher Education
 
-This project analyzed data about Bachelors, Masters, and Doctorate degrees. Specifically looking at number of degrees type of degrees by race & ethnicity and field of study. This project helped me grow skills such as cleaning, merging, and analyzing large data sets in R to answer questions about diversity in higher education. This project also grew my skills in dealing with data sets with many NA values, which can make data visualization and drawing sound conclusions about data more difficult. 
+This project analyzed data about Bachelors, Masters, and Doctorate degrees. Specifically looking at number of degrees and type of degrees by race & ethnicity and field of study. This project helped me grow skills such as cleaning, merging, and analyzing large data sets in R to answer questions about diversity in higher education. This project also grew my skills in dealing with data sets with many NA values, which can make data visualization and drawing sound conclusions about data more difficult. 
 
 Below you'll find code looking at linear regression for Bachelors, Masters, and Doctorate degrees.
 ```r
@@ -128,7 +128,7 @@ dsNA %>%
   theme_minimal ()
 ```
 
-These are graphs with the NA values included.
+More data visualization.
 ```r
 #For legibility, facet it vertically instead of horizontally or pick a different visualization
 
@@ -169,7 +169,7 @@ dsCOL %>%
   theme_minimal ()
 ```
 
-Lastly, I made an overall data set with all degrees to make more graphs to help understand the data set.
+Lastly, I made an overall data set with all degrees and made more graphs to help answer questions about the data set.
 ```r
 #-----OTHER---------
 dsOverall=ds %>%
@@ -207,7 +207,7 @@ unique(dsOverall$degree)
 
 ## How Does Minecraft Version Affect Success Rate
 
-This experiment investigates whether or not a person’s Minecraft experience level influences their ability to perform and accomplish a task, particularly finding diamond ores. To answer this question, I designed an experiment where 50 Willamette student participants, ages 18 - 24, were randomly assigned one of two Minecraft versions and were categorized by self-assessed player levels: Noob, Intermediate, and Expert. Each participant had 30 minutes in a randomly generated world to collect as many diamonds as they could with the game settings standardized across three devices to minimize confounding factors. The response variables of total diamonds collected, number of deaths, experience points, and time until the first diamond was collected and analyzed through statistical functions in R and data visualization. Findings from this experimental analysis indicate a clear correlation between a player’s experience level and their success rate in finding diamonds, with expert players dominating each category and showcasing more advanced skills in gathering diamonds.
+This experiment investigates whether or not a person’s Minecraft experience level influences their ability to perform and accomplish a task, particularly finding diamond ores. To answer this question, I designed an experiment where 50 Willamette student, ages 18-24, were randomly assigned one of two Minecraft versions and were categorized by self-assessed player levels: Noob, Intermediate, and Expert. Each participant had 30 minutes in a randomly generated world to collect as many diamonds as they could with the game settings standardized across three devices to minimize confounding factors. The response variables of total diamonds collected, number of deaths, experience points, and time until the first diamond was collected and analyzed through statistical functions in R and data visualization. Findings from this experimental analysis indicate a clear correlation between a player’s experience level and their success rate in finding diamonds, with expert players dominating each category and showcasing more advanced skills in gathering diamonds.
 
 Below I created two data sets, one with and one without, NA values to visualize Time to First Diamond and Player Experience.
 ```r
@@ -246,7 +246,7 @@ tukeyModel2
 plot(tukeyModel2)
 ```
 
-Overall this linear regression satisfies all the components of a LINE test as well as has independent observations as discussed earlier. However, there is some cause for concern as some of the data does not look perfect, thus future research should keep this in mind.
+The following code is for a linear regression. Overall this linear regression satisfies all the components of a LINE test as well as has independent observations as discussed earlier. However, there is some cause for concern as some of the data does not look perfect, thus future research should keep this in mind.
 ```r
 mod5=lm(`Diamonds.Found`~`XP`,data=ds)
 summary(mod5)

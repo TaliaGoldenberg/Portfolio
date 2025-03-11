@@ -4,11 +4,16 @@ title: Experience
 
 ## Odyssey World International
 
-I've had the privilege to work with Odyssey World International on their Community Action Map project. On this mapping initiative, I review listening sessions to extract key insights and aggregated data on healthcare providers of color in Clark County WA to create a Community Action Map, ensuring marginalized communities can access culturally competent care.
+I've had the privilege of working with Odyssey World International on their Community Action Map project. On this mapping initiative, I review "listening sessions" to extract key insights and aggregated data on healthcare providers of color in Clark County WA to create a Community Action Map, ensuring marginalized communities can access culturally competent care.
+
+----
+
+## Coursework
+
+In my Survey Design and Sampling Methodology course I gained valuable skills that I've been able to apply to other Data Science positions. Over the semester I developed experience cleaning and visualizing PUMs and PUMA data, carefully designing surveys and sampling strategies to minimize bias, completed CITI/IRB training to expand piratical knowledge for handling sensitive date, and more! Through my coursework at Willamette, I have expanded my technical skill set in addition to the valuable relationship building skills necessary to work as a community to affect change.
 
 ----
 
 ## LGBTQ Center OC
 
-My work at the LGBTQ Center in Orange County CA involved analyzing survey statistics to measure program success, designing data-driven presentations, and researching policy topics related to mental health and advocacy.
-
+My work at the LGBTQ Center in Orange County CA involved analyzing survey statistics to measure program success, designing data-driven presentations, and researching policy topics related to mental health and advocacy. Other projects I was assigned through this position involved restorative justice work, an educational social media campaign on the War on Drugs, and workshops on alcohol, tobacco & other drugs (ATOD). 
