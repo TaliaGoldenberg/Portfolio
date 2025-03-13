@@ -22,8 +22,6 @@ website:
     location: navbar
     type: textbox
   page-footer: 
-    left: |
-      <span class="faux-block">&#169; 2024 Blitz</span>
     center: |
       <span class="faux-block"><a href="https://www.willamette.edu">Visit Willamette.edu!</a></span>
     right: |
