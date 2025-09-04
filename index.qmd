@@ -22,7 +22,8 @@ about:
 
 Hello! My name is Talia (they/them). I am a current student at Willamette University majoring in Data Science and Sociology, with minors in Statistics and Women and Gender Studies. Opportunities to apply quantitative methods to real-world social justice issues align perfectly with both my academic background and professional aspirations. I’ve spent the past few years exploring how technical tools and social insight can come together to support equity and drive meaningful change. To see more on this, please explore this Portfolio!
 
-Outside of academics, I'm an Audio Visual Technician, President of Willamette University’s Headband A Cappella, Data Science Tutor, and Data Science Teaching Assistant.
+Outside of academics, I'm an Audio Visual Technician, President of Willamette University’s Headband A Cappella, and a Data Science Tutor.
+
 
 Please feel free to [contact me](mailto:taliagoldenberg1@gmail.com) if you have any questions or would like to discuss potential projects.
 
