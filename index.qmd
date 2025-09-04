@@ -20,9 +20,9 @@ about:
 
 # Welcome to my GitHub Portfolio!
 
-Hello! My name is Talia (they/them). I am a Data Science and Sociology major at Willamette University. I'm passionate about taking the technical skills associated with Data Science and combining it with the collective action, advocacy, and community organizing skills gained through Sociology.
+Hello! My name is Talia (they/them). I am a current student at Willamette University majoring in Data Science and Sociology, with minors in Statistics and Women and Gender Studies. Opportunities to apply quantitative methods to real-world social justice issues align perfectly with both my academic background and professional aspirations. I’ve spent the past few years exploring how technical tools and social insight can come together to support equity and drive meaningful change. To see more on this, please explore this Portfolio!
 
-Outside of academics, I'm an Audio Visual Technician, Vice President of Willamette University’s Headband A Cappella, Data Science Tutor, and Data Science Teaching Assistant.
+Outside of academics, I'm an Audio Visual Technician, President of Willamette University’s Headband A Cappella, Data Science Tutor, and Data Science Teaching Assistant.
 
 Please feel free to [contact me](mailto:taliagoldenberg1@gmail.com) if you have any questions or would like to discuss potential projects.
 
