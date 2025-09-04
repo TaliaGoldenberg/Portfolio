@@ -6,8 +6,10 @@ title: Experience
 
 I've had the privilege of working with Odyssey World International on their Community Asset Map project. On this mapping initiative, I review "listening sessions" to extract key insights and aggregated data on healthcare providers of color in Southwest WA and the Portland-Metro area to create a Community Asset Map, ensuring marginalized communities can access culturally competent care. 
 
-To view the map, please visit this website: https://www.google.com/maps/d/u/0/edit?mid=1lxialY7veKVCIv3KtGDCmiVtoZ0jhdc&usp=sharing
-To learn more about Odyssey World, please visit their website here: https://www.odysseyworld.org/
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1lxialY7veKVCIv3KtGDCmiVtoZ0jhdc&ehbc=2E312F" width="640" height="480"></iframe>
+
+To learn more about Odyssey World, please visit their website here: 
+https://www.odysseyworld.org/
 
 ----
 
